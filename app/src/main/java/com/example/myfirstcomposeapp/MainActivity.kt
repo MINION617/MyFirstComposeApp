@@ -39,9 +39,10 @@ fun MyFirstScreen() {
         Text(text = "Halo Ges! Aku Riza.")
         Text(text = "Ide punyaku dan tim: buat aplikasi yang bisa tracking bansos pemerintah.")
 
+        // Task 2
         Image(
-            painter = painterResource(id = R.drawable.ic_launcher_foreground),
-            contentDescription = "App launcher icon"
+            painter = painterResource(id = R.drawable.my_picture),
+            contentDescription = "Waktu lagi 'jalan2' "
         )
 
     }
