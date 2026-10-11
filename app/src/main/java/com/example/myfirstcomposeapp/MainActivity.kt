@@ -30,23 +30,20 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MyFirstScreen() {
-    // Task 3
-    Surface(color = Color.LightGray) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(24.dp)
-        ) {
-            // Task 1
-            Text(text = "Halo Ges! Aku Riza.")
-            Text(text = "Ide punyaku dan tim: buat aplikasi yang bisa tracking bansos pemerintah.")
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(24.dp)
+    ) {
+        // Task 1
+        Text(text = "Halo Ges! Aku Riza.")
+        Text(text = "Ide punyaku dan tim: buat aplikasi yang bisa tracking bansos pemerintah.")
 
-            // Task 2
-            Image(
-                painter = painterResource(id = R.drawable.my_picture),
-                contentDescription = "Waktu lagi 'jalan2' "
-            )
-        }
+        Image(
+            painter = painterResource(id = R.drawable.ic_launcher_foreground),
+            contentDescription = "App launcher icon"
+        )
+
     }
 }
 
